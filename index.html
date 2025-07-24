@@ -4,9 +4,35 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Flower Shop</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+		/>
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 	</head>
+
 	<body>
-			
+		<main class="mx-4 mt-[13px] sm:mx-[150px] sm:mt-8">
+			<header>
+				<nav class="flex justify-between items-center">
+					<div>
+						<img src="./assets/logo.png" alt="Logo" class="h-10" />
+					</div>
+
+					<div class="flex flex-row gap-12">
+						<div
+							class="hidden sm:flex gap-12 text-gray-700 text-base"
+						>
+							<span>Home</span>
+							<span>Shop</span>
+							<span>About Us</span>
+						</div>
+						<div class="text-gray-700 text-base">
+							<i class="fa-solid fa-cart-shopping"></i> Cart($56)
+						</div>
+					</div>
+				</nav>
+			</header>
+		</main>
 	</body>
 </html>
